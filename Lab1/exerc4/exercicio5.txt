@@ -1,0 +1,7 @@
+Para analisar se uma string é "maior" > ou "menor" < que outra, o fortran verifica o código de cada caractere da string um por vez. Todo caractere tem um número associado numa lista do computador.  Os passos do fortran são:
+
+1. Primeiro analisa o primeiro caractere de cada string. Se uma for igual a outra, passa para o próximo caractere; caso não, determinar qual é menor e maior e retornar a resposta;
+
+2. Ao analisar a segunda letra, repete os mesmos procedimentos do parágrafo anterior até que uma string não tenha mais caracteres ou que ache uma resposta para qual é maior ou menor;
+
+3. As string são determinadas iguais se ambas tiverem os mesmo número de caracteres na mesma ordem com os mesmos códigos de caractere.

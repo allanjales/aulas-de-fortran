@@ -1,0 +1,17 @@
+Ordenar "aba", "ave", "abacate", "absurdo".
+
+Obs: por os códigos dos caractere estarem em ordem alfabética na área de letras da lista, podemos considerar colocar em ordem alfabética equivalente a ordenar as letras através de "maior" > e "menor" < no fortran
+
+1. Analise o primeiro caractere e observe que todos são iguais. Portanto: nenhuma conclusão;
+
+2. Analise o segundo caractere de cada string (b, v, b, b) e observe que existe um valor "maior", que é o caractere v, pois no alfabeto ele vem depois das outras letras analisadas. Portanto: "ave" é a quarta última letra;
+
+3. Analise o terceiro caractere das strings que sobraram pra serem analisadas: aba, abacate e a absurdo (a, a, s). Note que s também é considerado o "maior" caractere, portanto "absurdo" é considerado o antepenúltimo (terceiro);
+
+4. Analise o quarto caractere das strings restantes: aba e abacate. Note que não há quarto caractere em "aba". Portanto, aba < abacate e aba será o primeiro elemento enquanto abacate o segundo.
+
+Concluímos que a ordem ficou a seguinte:
+1. Aba;
+2. Abacate;
+3. Absurdo;
+4. Ave.
